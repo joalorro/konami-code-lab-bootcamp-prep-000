@@ -19,7 +19,6 @@ function init(e) {
 
 body.addEventListener('keydown', (e) => {
   
-  debugger;
   const key = e.key;
   
   if (key === codes[index]){
