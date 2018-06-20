@@ -20,7 +20,7 @@ function init(e) {
     index++;
     
     if (index === codes.length){
-      alert('YOU ARE NOW BLESD BY DOGE');
+      alert('Success!');
       
       index = 0;
     }
