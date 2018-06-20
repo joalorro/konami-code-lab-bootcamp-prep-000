@@ -14,6 +14,10 @@ let index = 0;
 const body = document.querySelector('body');
 
 function init(e) {
+
+}
+
+body.addEventListener('keydown', (e) => {
   
   debugger;
   const key = e.key;
@@ -29,6 +33,5 @@ function init(e) {
   } else {
     index = 0;
   }
-}
-
-body.addEventListener('keydown', init(e) )
+  
+} )
